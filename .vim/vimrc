@@ -1,0 +1,36 @@
+syntax on
+
+set fileformat=unix
+set encoding=UTF-8
+
+set mouse=a
+set showcmd
+set noshowmode
+
+" TAB option
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set autoindent
+set smartindent
+set smarttab
+
+" enable selected line options
+set cursorline
+set number
+set relativenumber
+set scrolloff=4
+set wrap
+
+" search option
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+" F1 key will disable highlighting
+nnoremap <F1> :noh<CR>
+
+colorscheme retrobox
+
+let g:airline_theme = 'gruvbox'
+let g:airline_powerline_fonts = 1
